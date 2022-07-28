@@ -60,9 +60,11 @@ The machine learning algorithms used in this analysis were:
 
 ![EasyEnsembleClassifier](https://user-images.githubusercontent.com/102264298/181600699-106fe918-b559-4963-bf66-1ea37b58a2b0.png)
 
-* Balanced accuracy scores 
+* Balanced accuracy score is 0.942
 * Precision for low-risk loans is 1.00 and for high-risk is 0.09. 
 * Recall score for low-risk loans is 0.94 and for high-risk is 0.92.
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary: 
+
+In conclusion, the EasyEnsembleCalssifier Model is the ideal model to use, because it has the highest accuracy score of 0.942 and the highest recall score which is 0.94 for low-risk loans and 0.92 for high-risk. It is recommended to use the EasyEnsembleCalssifier Model to perform the challenge of credit card risk. It is not recommended to use the ClusterCentroids Model due to its lowest accuracy score and recall scores. 
